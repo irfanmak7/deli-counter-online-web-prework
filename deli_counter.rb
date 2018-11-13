@@ -25,5 +25,5 @@ def now_serving(people)
 end
 
 line = []
-take_a_number(line, "Irfan")
 now_serving(line)
+take_a_number(line, "Irfan")
