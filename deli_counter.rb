@@ -15,7 +15,7 @@ end
 def take_a_number(people)
   people.push($counter)
   puts "Welcome. You are ticket number #{people.length} and you are #{$counter} in line."
-  counter += 1
+  $counter += 1
 end
 
 def now_serving(people)
