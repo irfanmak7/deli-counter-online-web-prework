@@ -1,3 +1,5 @@
+$counter = 1
+
 def line(people)
   line_array = []
   if people.length == 0
@@ -11,8 +13,7 @@ def line(people)
 end
 
 def take_a_number(people)
-  counter = 1
-  people.push(counter)
+  people.push($counter)
   puts "Welcome. You are ticket number #{people.length} and you are #{counter} in line."
   counter += 1
 end
