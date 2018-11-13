@@ -10,9 +10,10 @@ def line(people)
   end
 end
 
-def take_a_number(people, name)
-  people.push(name)
-  puts "Welcome, #{name}. You are number #{people.length} in line."
+def take_a_number(people)
+  counter = 1
+  people.push(counter)
+  puts "Welcome. You are number #{people.length} in line."
 end
 
 def now_serving(people)
@@ -25,5 +26,5 @@ def now_serving(people)
 end
 
 line = []
-now_serving(line)
-take_a_number(line, "Irfan")
+take_a_number(line)
+take_a_number(line)
