@@ -23,3 +23,6 @@ def now_serving(people)
     people.shift()
   end
 end
+
+line = []
+take_a_number(line, "Irfan")
