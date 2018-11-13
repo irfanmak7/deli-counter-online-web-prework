@@ -13,7 +13,7 @@ end
 def take_a_number(people)
   counter = 1
   people.push(counter)
-  puts "Welcome. You are ticket number #{people.length} and you are #{people.length} in line."
+  puts "Welcome. You are ticket number #{people.length} and you are #{counter} in line."
   counter += 1
 end
 
@@ -27,4 +27,8 @@ def now_serving(people)
 end
 
 line = []
+take_a_number(line)
+take_a_number(line)
+now_serving(line)
+now_serving(line)
 take_a_number(line)
