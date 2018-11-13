@@ -14,6 +14,7 @@ def take_a_number(people)
   counter = 1
   people.push(counter)
   puts "Welcome. You are number #{people.length} in line."
+  counter += 1
 end
 
 def now_serving(people)
